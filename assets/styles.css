@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: x-large;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-align: center;
+    justify-content: center;
+    color: rgb(36, 36, 116);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.produto .detalhes {
+    max-width: 500px;
+}
+
+.btn-comprar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.telhacertaImg {
+    max-width: 150px;
+
+}
+
+/*
+.conteudo-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .conteudo-header header {
+    height: 70px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--header-background-color);
+    box-shadow: 0 2px 8px indigo;
+    border-radius: 10px;
+  }
+  
+  .conteudo-header header .logo a {
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--header-text-color);
+    text-decoration: none;
+  }
+  
+  .conteudo-header header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .conteudo-header header ul li {
+    margin-right: 15px;
+  }
+  
+  .conteudo-header header nav ul li a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--header-text-color);
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .conteudo-header header nav ul li a:hover {
+    color: indigo;
+    font-size: 21px;
+  }
+
+  .conteudo-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .conteudo-header header {
+    height: 70px;
+    max-width: 1175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--header-background-color);
+    box-shadow: 0 0 25px indigo ;
+    border-radius: 10px;
+  }
+  
+  .conteudo-header header .logo a {
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--header-text-color);
+    text-decoration: none;
+  }
+  
+  .conteudo-header header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .conteudo-header header ul li {
+    margin-right: 15px;
+  }
+  
+  .conteudo-header header nav ul li a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--header-text-color);
+    transition: color 0.3s, font-size 0.3s;
+    margin-right: 15px;
+  }
+  
+  .conteudo-header header nav ul li a:hover {
+    color: indigo;
+    font-size: 21px;
+  }
+  
+  #nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #nav li {
+    margin-right: 15px;
+  }
+  
+  #nav a {
+    text-decoration: none;
+    color: var(--header-text-color);
+    transition: color 0.3s, font-size 0.3s;
+    font-size: 24px;
+  }
+  
+  #nav a:hover {
+    color: indigo;
+    font-size: 28px;
+  }
+
+  
