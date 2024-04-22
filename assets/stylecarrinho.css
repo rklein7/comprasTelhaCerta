@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+
+.navbar {
+    font-size: 18px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+
+/*box-shadow: 0 5px 8px rgb(0, 0, 0)*/
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(34,68,112);
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+
+.navbar a:hover{
+  color: #fff;
+  padding: 7.5px 15px;
+  background-color:rgba(2,128,209,255) ;
+  border-radius: 5px;
+}
+
+  .local {
+    background-color: rgba(2,128,209,255);
+    color: #fff;
+    padding: 10px;
+    margin-top: 1px;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 99%;
+  }
+
+  .telhacertaImg {
+    max-width: 150px;
+    margin-right: 50px;
+}
+  
+  h1 {
+    text-align: center;
+    color: rgb(34,68,112);
+  }
+  
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .details {
+    flex-grow: 1;
+    color: rgb(34,68,112);
+  }
+  
+  .details h2 {
+    margin-top: 0;
+    color:rgb(34,68,112)
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(2,128,209,255);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: rgba(2,128,209,255);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  

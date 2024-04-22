@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telha TP-40</title>
     <link rel="stylesheet" type="text/css" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="assets/script.js" type="text/javascript" defer></script>
+    <script src="assets/scriptTP40.js" type="text/javascript" defer></script>
 </head>
-
 <body>
-
     <div class="navbar">
         <nav>
             <img class=telhacertaImg src="images/images.jpeg" alt="Telha Certa">
             <a href="#"><b>Página Inicial</b></a>
             <a href="#"><b>Produtos</b></a>
             <a href="#"><b>Contato</b></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
         </nav>
     </div>
-
     <div class="local">
         <h2>Produtos</h2>
     </div>
-
     <div class="container">
         <div class="produto">
             <div class="imagem">
@@ -42,23 +38,24 @@
                     <p><strong>0,65:</strong> R$ 43,50</p>
                     <p><strong>0,50:</strong> R$ 38,30</p>
                     <p><strong>0,43:</strong> R$ 34,30</p>
-                </div>    
-                
+                </div>
                 <div class="espessura">
                     <h3>Selecione a Espessura:</h3>
-                    <button class="btn_espessura">0,65</button>
-                    <button class="btn_espessura">0,50</button>
-                    <button class="btn_espessura">0,43</button>
+                    <button id="btnSelEspes1" class="btn_espessura"><b>0,65</b></button>
+                    <button id="btnSelEspes2" class="btn_espessura"><b>0,50</b></button>
+                    <button id="btnSelEspes3" class="btn_espessura"><b>0,43</b></button>
                 </div>
                 <div class="quantidade">
                     <label for="quantidade"><b>Quantidade</b></label>
                     <input type="number" id="quantidade" name="quantidade" min="1" value="1">
                 </div>
-
+                <div class="metragem">
+                    <label for="metragem"><b>Metragem</b></label>
+                    <input type="number" id="metragem" name="metragem" min="0,00" max="15" value="0">
+                </div>
                 <button class="btn_carrinho">
                     <i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho
                 </button>
-                
                 <button class="btn_comprar">
                     <i class="bi bi-check-lg"></i> Comprar Agora
                 </button>
@@ -66,7 +63,6 @@
                 <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="whatsapp-button">
                     <i class="fab fa-whatsapp"></i> WhatsApp Telha Certa
                 </a>
-
             </div>
         </div>
         <div class="vantagens">
@@ -78,12 +74,10 @@
             <p>Garantia de máxima estanqueidade.</p>
             <img src="images/WhatsApp Image 2024-04-19 at 12.36.29 PM.jpeg" alt="especificacoestelha">
         </div>
-
     </div>
 
     <footer>
-        <p>&copy; 2024 Telha Certa.</p>
+        <p>&copy; 2024 Telha Certa. Desenvolvido por Rafael Augusto Klein</p>
     </footer>
 </body>
-
 </html>

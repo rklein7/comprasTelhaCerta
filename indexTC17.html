@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telha TC-17</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="assets/scriptTC17.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <img class=telhacertaImg src="images/images.jpeg" alt="Telha Certa">
+            <a href="#"><b>Página Inicial</b></a>
+            <a href="#"><b>Produtos</b></a>
+            <a href="#"><b>Contato</b></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+    </div>
+    <div class="local">
+        <h2>Produtos</h2>
+    </div>
+    <div class="container">
+        <div class="produto">
+            <div class="imagem">
+                <img id="imagemPrincipal" src="images/imagem4.png" alt="Telha Tp-40 0,43mm Galvalume">
+                <button id="prevButton">&larr;</button>
+                <button id="nextButton">&rarr;</button>
+            </div>
+            <div class="detalhes">
+                <h2>Telha Ondulada Tc-17 Galvalume</h2>
+                <p>Possui formato com ondas senoidais, sem trechos planos. Recomendada principalmente para coberturas arqueadas devido à sua flexibilidade, adapta-se à curvatura do telhado sem dobrar ou formar vincos.</p>
+                <div class="preco_metro">
+                    <h3><strong>Preço do metro: </strong></h3>
+                    <p><strong>0,65:</strong> R$ 43,50</p>
+                    <p><strong>0,50:</strong> R$ 38,30</p>
+                    <p><strong>0,43:</strong> R$ 34,30</p>
+                </div>
+                <div class="espessura">
+                    <h3>Selecione a Espessura:</h3>
+                    <button id="btnSelEspes1" class="btn_espessura"><b>0,65</b></button>
+                    <button id="btnSelEspes2" class="btn_espessura"><b>0,50</b></button>
+                    <button id="btnSelEspes3" class="btn_espessura"><b>0,43</b></button>
+                </div>
+                <div class="quantidade">
+                    <label for="quantidade"><b>Quantidade</b></label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+                </div>
+                <div class="metragem">
+                    <label for="metragem"><b>Metragem</b></label>
+                    <input type="number" id="metragem" name="metragem" min="0,00" max="15" value="0">
+                </div>
+                <button class="btn_carrinho">
+                    <i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho
+                </button>
+                <button class="btn_comprar">
+                    <i class="bi bi-check-lg"></i> Comprar Agora
+                </button>
+                <p>Alguma Dúvida? Contate-nos pelo WhatsApp</p>
+                <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="whatsapp-button">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Telha Certa
+                </a>
+            </div>
+        </div>
+        <div class="vantagens">
+            <h3>Confira as principais vantagens deste modelo:</h3>
+            <p>Fácil montagem;</p>
+            <p>Economia na estrutura da cobertura;</p>
+            <p>Garantia de máxima estanqueidade;</p>
+            <p>Resistente a impactos;</p>
+            <p>Sob medida de acordo com o projeto.</p>
+            <img src="images/especificacoestc17.jpeg" alt="especificacoestelha">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Telha Certa. Desenvolvido por Rafael Augusto Klein</p>
+    </footer>
+</body>
+</html>

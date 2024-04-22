@@ -3,9 +3,9 @@ const prevButton = document.getElementById('prevButton');
 const nextButton = document.getElementById('nextButton');
 
 const imagens = [
-    'images/imagem1.png',
-    'images/imagem2.png',
-    'images/imagem3.png'
+    'images/imagem4.png',
+    'images/imagem5.png',
+    'images/imagem6.png'
 ];
 
 let indiceAtual = 0;
@@ -25,3 +25,24 @@ function imagemAnterior() {
 
 nextButton.addEventListener('click', proximaImagem);
 prevButton.addEventListener('click', imagemAnterior);
+
+
+// PARA SELECIONAR OS BOTOES DE ESPESSURA
+
+const btnSelEspes1 = document.getElementById('btnSelEspes1');
+
+btnSelEspes1.addEventListener('click', function() {
+    this.classList.toggle('selected');
+});
+
+const btnSelEspes2 = document.getElementById('btnSelEspes2');
+
+btnSelEspes2.addEventListener('click', function() {
+    this.classList.toggle('selected');
+});
+
+const btnSelEspes3 = document.getElementById('btnSelEspes3');
+
+btnSelEspes3.addEventListener('click', function() {
+    this.classList.toggle('selected');
+});

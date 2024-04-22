@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/stylecarrinho.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <img class=telhacertaImg src="images/images.jpeg" alt="Telha Certa">
+            <a href="#"><b>Página Inicial</b></a>
+            <a href="#"><b>Produtos</b></a>
+            <a href="#"><b>Contato</b></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+    </div>
+    <div class="local">
+        <h2>Carrinho</h2>
+    </div>
+    <div class="container">
+        <h1>Carrinho de Compras</h1>
+        <div class="product">
+            <img src="images/imagem4.png" alt="TC-17">
+            <div class="details">
+                <h2>Telha Ondulada Tc-17</h2>
+                <p>Espessura: 0,65mm</p>
+                <p>Preço: R$ 50,00</p>
+                <p>Quantidade: <span class="quantity">2</span></p>
+                <p>Total: R$ <span class="total-price">100,00</span></p>
+                <div class="controls">
+                    <button class="remove-item">Remover Item</button>
+                    <button class="add-item">Adicionar Item</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/imagem1.png" alt="Tp-40">
+            <div class="details">
+                <h2>Telha Trapezoidal Tp-40 Galvalume</h2>
+                <p>Espessura: 0,43</p>
+                <p>Preço: R$ 30,00</p>
+                <p>Quantidade: <span class="quantity">1</span></p>
+                <p>Total: R$ <span class="total-price">30,00</span></p>
+                <div class="controls">
+                    <button class="remove-item">Remover Item</button>
+                    <button class="add-item">Adicionar Item</button>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <strong>Total: R$ <span id="total-price">190,00</span></strong>
+        </div>
+        <a href="#" class="checkout-btn">Finalizar Compra</a>
+    </div>
+
+    <script src="assets/scriptCarrinho.js"></script>
+
+</body>
+
+</html>
